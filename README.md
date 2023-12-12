@@ -110,7 +110,12 @@ add_filter('the_content', 'reemplazarTexto');
 add_filter('the_title', 'reemplazarTexto');
 ```
 
+## Aclaraciones
+
+- El plugin hace uso de la DB de WordPress para almacenar los datos de la tabla.
+- El plugin usa tambíen las funciones de WordPress y su Base de datos para gestionar la implementación de DB.
+
 ## Autor
 
 - _Rubén Núñez_
-- _Version: 3.3_
+- _Version: 1.0_
